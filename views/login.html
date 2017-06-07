@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1>登录页面：</h1>
+<h2><%= errorMsg%></h2>
+<form action="/login" method="post">
+    <p>账 号：<input type="text" name="username"/></p>
+    <p>密 码：<input type="password" name="password"/></p>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

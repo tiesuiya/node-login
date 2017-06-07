@@ -1,0 +1,25 @@
+# Built application files
+# *.dll
+
+
+# code analysis data files
+*.dat
+
+# Generated files
+obj/
+
+
+# node_modules 
+node_modules/
+
+# Log Files
+*.log
+
+# temp files
+models/temp/
+
+#idea
+.idea/
+
+models/appSettings.js
+bin/
